@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "sergey"
+    },
+    "adminPassword": {
+      "value": "Pass@word!"
+    },
+    "sshKeyData": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLnHUdp7UdIkuVApkNqopb2OLhcDjDWTViYh03nLIQiXN6Q6jgZjey1eYvQxYf5DcdReiLwjzOmifvSp6P+6alCGEZiGOspMbRT4g5aFFhJa9FEu9lJCRpGwuUOc++nEg00T7TTW0C26o58E/ZElFXjVr8vOsj1Rxn1d7C5TGoBqS7VwYgmOlrJzGr/QC30j5HUCGmNfmUkTrzdAHEpkUBed4uxJS2tp2Bcbxw0H8I7AodOCBknda9lDhg5MY5wJXi3AlIz5vw0wX9Si3ZHpvNOcWyvgRVf+GTfcyB1GiqM8I9EZeGgJVy1XBhgHXOR7gGZydHsgNGNP28PNFN3zmJ sergey@cc-e3ff-df901005-458590880-g102k"
+    },
+    "masterDnsName": {
+      "value": "masteros"
+    },
+    "numberOfNodes": {
+      "value": 1
+    },
+    "image": {
+      "value": "centos"
+    }
+  }
+}
